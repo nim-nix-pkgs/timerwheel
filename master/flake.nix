@@ -11,6 +11,7 @@
   inputs.src-timerwheel-master.ref   = "refs/heads/master";
   inputs.src-timerwheel-master.owner = "xflywind";
   inputs.src-timerwheel-master.repo  = "timerwheel";
+  inputs.src-timerwheel-master.dir   = "";
   inputs.src-timerwheel-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
